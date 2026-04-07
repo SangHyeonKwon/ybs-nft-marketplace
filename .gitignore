@@ -1,0 +1,23 @@
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# Dependencies
+node_modules/
+
+# Build outputs
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+frontend/.next/
+
+# Generated NFT output (too large for git)
+nft_output/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
